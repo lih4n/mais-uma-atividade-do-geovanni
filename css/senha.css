@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e5e6e4;
+    color: rgb(2, 2, 2);
+}
+.container{
+    max-width: 500px;
+    background-color: rgb(247, 246, 246);
+    margin: 0 auto;
+    padding: 20px;
+    padding-right: 35px;
+    /* Borda arredondada */
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+    color: rgb(68, 0, 255);
+}
+.form-control{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Campos de texto. email, senha e select */
+input[type="text"],
+input[type="email"],
+input[type="passowrd"],
+select {
+    width: 100%;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+}
+.opcoes label {
+    display: inline;
+    margin-right: 10px;
+}
+button {
+    width: 95%;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: rgb(0, 26, 255);
+    color: rgb(252, 252, 252);
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    transition: 1.0s all;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
